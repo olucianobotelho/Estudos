@@ -68,6 +68,17 @@ a {
     position: absolute;
 }
 
+@media (min-width:992px){
+    .header .logo{
+        height: 100px;
+        width: auto;
+    }
+    
+}
+
+
+
+
 /* CONTAINER */
 .container{
 padding-left: 12px;
@@ -115,6 +126,9 @@ padding-right: 12px;
     }
 
 }
+
+
+
 
 
 
