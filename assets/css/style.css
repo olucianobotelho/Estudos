@@ -13,7 +13,7 @@ body {
 
 }
 :root {
-    --main-color: #66a874;
+    --main-color: #CF191A;
 }
 a {
     color: rgb(47, 143, 199);
@@ -73,7 +73,6 @@ a {
         height: 100px;
         width: auto;
     }
-    
 }
 
 
@@ -130,12 +129,32 @@ padding-right: 12px;
 
 
 
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+
+h2{
+    font-size: 24px;
+    font-weight: 600;
+}
 
 
 
+.card{
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
 
-
-
+.card img{
+    width: 100%;
+    height: auto;
+}
 
 
 
