@@ -149,7 +149,7 @@ h1{
 
 
 
-h2{
+h2, .h2{
     font-size:24px;
     font-weight: 600;
 }
@@ -170,13 +170,13 @@ h3{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    background-color: #424242;
+    
     
 }
 
 .card img{
     width: 100%;
-    height: auto;
+    
     display: block;
     
 }
@@ -303,4 +303,43 @@ footer .fa-whatsapp{
         margin-right: 40px;
         margin-bottom: 0;
     }
+}
+
+
+
+
+
+/* CART */
+
+
+.cart-sidebar{
+    
+display: none;
+top:0;
+left: 0;
+width: 100vw;
+height: 100vh;
+background-color: #fff;
+padding: 15px;
+}
+
+#btn-close-cart{
+    font-size: 30px;
+    color:var(--main-color);
+    background-color: transparent;
+    padding: 5px;
+    
+}
+
+
+#empty-card{
+    text-align: center;  
+    
+}
+
+
+#empty-card .fa-shopping-bag{
+    font-size: 100px;
+    color: var(--main-color);
+   
 }
