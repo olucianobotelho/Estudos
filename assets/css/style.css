@@ -170,12 +170,15 @@ h3{
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    background-color: #424242;
+    
 }
 
 .card img{
     width: 100%;
     height: auto;
     display: block;
+    
 }
 
 
@@ -238,7 +241,7 @@ h3{
 /* PRODUCTS GRID */
 
 
-#products-grid{
+.products-grid{
 display: grid;
 grid-template-columns: 1fr 1fr ;
 grid-gap: 12px;
@@ -246,20 +249,58 @@ grid-gap: 12px;
 }
 
 @media(min-width:575px) {
-    #products-grid{
+    .products-grid{
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 
 @media(min-width:992px) {
-    #products-grid{
+    .products-grid{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
 
 
+footer{
+    background-color: #333;
+    color:#fff;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px 0;
+    font-weight: 600;
+}
+
+footer p{
+    margin-bottom: 12px;
+   
+}
 
 
 
+footer a{
+    color:inherit;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer .fa-whatsapp{
+    color:#25D367;
+    font-size: 44px;
+    vertical-align:middle;
+}
+
+
+@media(min-width:768px) {
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer p{
+        margin-right: 40px;
+        margin-bottom: 0;
+    }
+}
