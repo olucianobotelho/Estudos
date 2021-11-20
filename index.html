@@ -25,7 +25,7 @@
                 <nav>
                     <a href="saiba-mais.html" target="_blank">Saiba Mais</a>
                 </nav>
-                <button id="btn-cart">
+                <button id="btn-cart" type="button">
                     <i class="fas fa-shopping-bag"></i>
                     <span class="badge">0</span>
                 </button>
@@ -185,25 +185,29 @@
     <aside class="cart-sidebar">
 
 
-        <button id="btn-close-cart"><i class="fas fa-times"></i></button>
+        <button id="btn-close-cart">
+            
+            <i class="fas fa-times"></i>
+        
+        </button>
 
-        <!-- <div id="empty-card">
+         <div id="empty-card">
 <i class="fas fa-shopping-bag"></i>
 <p class="h2">Sua sacoleta está vazia</p>
 
-</div> -->
+</div> 
 
         <div id="cart-with-products">
             <p class="h2">Resumo do Pedido:</p>
             <ul>
                 <li class="cart-item"><img src="./assets/img/imgpizzas/marguerita.svg" alt="" width="70" height="70">
 
-                    <div class="">
+                    <div class="" id="marguerita">
                         <p class="h3">Margherita</p>
                         <p class="price">R$ 49,90</p>
                     </div>
                     <input class="form-input" type="number" min="0" value="1" name="quantidade">
-                    <button>
+                    <button id="remover-item">
                         <i class="fas fa-trash-alt"></i>
                     </button>
 
@@ -218,8 +222,8 @@
                 <p class="h2">Total</p>
                 <p>R$99,80</p>
             </div>
-            <button class="btn btn-main-outline btn-block" type="submit">Adicionar mais itens</button>
-        <button class="btn btn-main btn-block" type="submit">Fazer Pedido</button>
+            <button class="btn btn-main-outline btn-block" type="submit" id="adicionar-item">Adicionar mais itens</button>
+        <button class="btn btn-main btn-block" type="submit" id="fazer-pedido">Fazer Pedido</button>
 
         </div>
         
@@ -230,5 +234,5 @@
 
 
 </body>
-
+<script src="./assets/js/script.js" ></script>
 </html>

@@ -326,7 +326,7 @@ footer .fa-whatsapp{
 
 
 .cart-sidebar{
-display: none;    
+display: none;   
 position: fixed;
 top:0;
 left: 0;
@@ -346,6 +346,7 @@ padding: 15px;
 
 
 #empty-card{
+    display: none;
     text-align: center;  
     top: 50%;
     left: 50%;
