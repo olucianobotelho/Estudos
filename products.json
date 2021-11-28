@@ -1,0 +1,69 @@
+{
+  "groups": [
+    {
+      "id": "43860f85-a873-4e20-b173-36d3198bb881",
+      "name": "Pizzas Especiais",
+      "products": [
+        {
+          "id": "d18ab5f1-08b9-4db7-b05e-c3d53c35958c",
+          "name": "Calabresa",
+          "image": "assets/img/imgpizzas/pizzacalabresa.svg",
+          "description": "Massa artesanal, molho ao sugo, muçarela, calabresa, cebola e milho.",
+          "price": 49.9
+        },
+        {
+          "id": "4519b494-42d5-4a19-a268-ab373472665c",
+          "name": "Quatro queijos",
+          "image": "assets/img/imgpizzas/quatroqueijos.svg",
+          "description": "Massa artesanal, molho ao sugo, muçarela, provolone, parmesão e catupiry.",
+          "price": 49.9
+        },
+        {
+          "id": "f6b0f72a-ce7a-483b-882b-312bf30916cd",
+          "name": "A moda",
+          "image": "assets/img/imgpizzas/pizzaamoda.svg",
+          "description": "Massa artesanal, molho ao sugo, muçarela, presunto, calabresa, bacon, pimentão, cebola, milho e orégano.",
+          "price": 49.9
+        },
+        {
+          "id": "91b9b877-d496-49b9-ba57-b946fd454c95",
+          "name": "Margherita",
+          "image": "assets/img/imgpizzas/marguerita.svg",
+          "description": "Massa artesanal, molho ao sugo, muçarela, tomates e manjericão.",
+          "price": 49.9
+        }
+      ]
+    },
+
+    {
+      "id": "2a386e1d-c44c-4822-8b7f-397ec7f18c26",
+      "name": "Bebidas",
+      "products": [
+        {
+          "id": "306872c9-352f-45a9-aef2-b034ef07d23d",
+          "name": "Coca-cola 2L",
+          "image": "assets/img/imgrefrigerantes/cocacola.svg",
+          "price": 12.9
+        },
+        {
+          "id": "35ad3380-556a-48ed-892f-b12b25b52a03",
+          "name": "Fanta 2L",
+          "image": "assets/img/imgrefrigerantes/fantalaranja.svg",
+          "price": 12.9
+        },
+        {
+          "id": "1ecccf5b-e2c2-4e51-a2f2-1b8aa3b73dd7",
+          "name": "Mate Couro 2L",
+          "image": "assets/img/imgrefrigerantes/matecouro.svg",
+          "price": 12.9
+        },
+        {
+          "id": "c0dad15f-6bcb-4143-a804-e7ebbf267167",
+          "name": "Kuat 2L",
+          "image": "assets/img/imgrefrigerantes/kuat.svg",
+          "price": 10.9
+        }
+      ]
+    }
+  ]
+}

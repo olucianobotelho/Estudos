@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 body {
+
+    background: white;
     color: #424242;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -254,6 +256,26 @@ h3, .h3{
 /* PRODUCTS GRID */
 
 
+.loading-products{
+display: block;
+text-align: center;
+color: #CF191A;
+font-size: 70px;
+margin: 30px 0;
+animation: loading 0.5s linear infinite;
+}
+
+@keyframes loading{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
 .products-grid{
 display: grid;
 grid-template-columns: 1fr 1fr ;
@@ -451,3 +473,16 @@ padding: 12px 0;
         box-shadow: -3px 0 6px rgba(0, 0, 0, 0.25) ;
     }
 }
+
+
+
+
+/* ALERT */
+
+.alert-error{
+    padding: 10%;
+    text-align: center;
+    color: red;
+    font-weight: 600;
+}
+
