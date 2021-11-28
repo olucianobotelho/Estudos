@@ -84,13 +84,7 @@ const fetchProducts = () =>{
         console.log('Vou Remover')
         const btnRemoveCartEls = document.querySelectorAll('#btn-remove')
 
-        btnremoveCartEls.forEach(btn => {
-            btn.addEventListener('click', removeToCart)
-    
-        })
-
-
-
+        
     }
     setupAddToCart()
 })
